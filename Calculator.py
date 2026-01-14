@@ -36,8 +36,9 @@ while function == "4":
     calculator_functions.divide(x, y)
 
 while function == "5":
-    print("Nothing Here Yet!")
-    break
+    x = int(input("Enter base value: "))
+    y = int(input("Enter exponential value "))
+    calculator_functions.exponent(x, y)
 
 while function == "6":
     print("Nothing Here Yet!")

@@ -18,3 +18,8 @@ def divide(x, y):
     answer = x / y
     print(f"{x} / {y} = {answer}")
     return
+
+def exponent(x, y):
+    answer = x ** y
+    print(f"{x} ^ {y} = {answer}")
+    return
