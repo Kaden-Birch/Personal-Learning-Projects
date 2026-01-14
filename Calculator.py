@@ -21,8 +21,9 @@ while function == "1":
 
 
 while function == "2":
-    print("Nothing Here Yet!")
-    break
+    x = int(input("Enter first number to subtract: "))
+    y = int(input("Enter second number to subtract: "))
+    calculator_functions.subtract(x, y)
 
 while function == "3":
     print("Nothing Here Yet!")
