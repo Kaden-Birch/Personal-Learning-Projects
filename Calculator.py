@@ -26,12 +26,14 @@ while function == "2":
     calculator_functions.subtract(x, y)
 
 while function == "3":
-    print("Nothing Here Yet!")
-    break
+    x = int(input("Enter first number to multiply: "))
+    y = int(input("Enter second number to multiply: "))
+    calculator_functions.multiply(x, y)
 
 while function == "4":
-    print("Nothing Here Yet!")
-    break
+    x = int(input("Enter first number to divide: "))
+    y = int(input("Enter second number to divide: "))
+    calculator_functions.divide(x, y)
 
 while function == "5":
     print("Nothing Here Yet!")

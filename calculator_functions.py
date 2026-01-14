@@ -8,3 +8,13 @@ def subtract(x, y):
     answer = x - y
     print(f"{x} - {y} = {answer}")
     return
+
+def multiply(x, y):
+    answer = x * y
+    print(f"{x} * {y} = {answer}")
+    return
+
+def divide(x, y):
+    answer = x / y
+    print(f"{x} / {y} = {answer}")
+    return
