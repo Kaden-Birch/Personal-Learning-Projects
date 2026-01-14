@@ -23,3 +23,9 @@ def exponent(x, y):
     answer = x ** y
     print(f"{x} ^ {y} = {answer}")
     return
+
+def root(x, y):
+    math_root = 1/y
+    answer = x ** math_root
+    print(f"{x} ^ {y} = {answer}")
+    return

@@ -41,5 +41,6 @@ while function == "5":
     calculator_functions.exponent(x, y)
 
 while function == "6":
-    print("Nothing Here Yet!")
-    break
+    x = int(input("Enter base value: "))
+    y = int(input("Enter root value "))
+    calculator_functions.root(x, y)
