@@ -3,6 +3,7 @@ x = ""
 y = ""
 
 #For now this will be a terminal calculator. In the future we will add a GUI and more advanced features.
+#at some point we will create some better way to do all this but I am still learning. Honestly I am just impressed I am using git at all
 def menu():
     print("""
     1. Add
