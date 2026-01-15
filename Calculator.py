@@ -22,8 +22,8 @@ function = input("Enter a selection from the menu to select that operation\n")
 
 #Addition
 while function == "1":
-    x = input("Enter first number to add: ")
-    if x == "Q":
+    x = input("Enter first number to add:\nOr use type 'Q' to go back to the main menu! ")
+    if x == "Q" or x == "q":
         menu()
         function = input("Enter a selection from the menu to select that operation\n")
         continue
@@ -33,8 +33,8 @@ while function == "1":
 
 #Subtration
 while function == "2":
-    x = input("Enter first number to subtract: ")
-    if x == "Q":
+    x = input("Enter first number to subtract:\nOr use type 'Q' to go back to the main menu! ")
+    if x == "Q" or x == "q":
         menu()
         function = input("Enter a selection from the menu to select that operation\n")
         continue
@@ -43,8 +43,8 @@ while function == "2":
 
 #multiplication
 while function == "3":
-    x = input("Enter first number to multiply: ")
-    if x == "Q":
+    x = input("Enter first number to multiply:\nOr use type 'Q' to go back to the main menu! ")
+    if x == "Q" or x == "q":
         menu()
         function = input("Enter a selection from the menu to select that operation\n")
         continue
@@ -53,8 +53,8 @@ while function == "3":
 
 #division
 while function == "4":
-    x = input("Enter first number to divide: ")
-    if x == "Q":
+    x = input("Enter first number to divide:\nOr use type 'Q' to go back to the main menu! ")
+    if x == "Q" or x == "q":
         menu()
         function = input("Enter a selection from the menu to select that operation\n")
         continue
@@ -63,18 +63,18 @@ while function == "4":
 
 #exponent function
 while function == "5":
-    x = input("Enter base value: ")
-    if x == "Q":
+    x = input("Enter base value:\nOr use type 'Q' to go back to the main menu! ")
+    if x == "Q" or x == "q":
         menu()
         function = input("Enter a selection from the menu to select that operation\n")
         continue
-    y = input("Enter exponential value ")
+    y = input("Enter exponential value\nOr use type 'Q' to go back to the main menu! ")
     calculator_functions.exponent(x, y)
 
 #root function
 while function == "6":
     x = input("Enter base value: ")
-    if x == "Q":
+    if x == "Q" or x == "q":
         menu()
         function = input("Enter a selection from the menu to select that operation\n")
         continue

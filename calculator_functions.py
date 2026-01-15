@@ -10,7 +10,6 @@ def subtract(x, y):
     print(f"{x} - {y} = {answer}")
     return
 
-
 #Multiplication function
 def multiply(x, y):
     answer = float(x) * float(y)
@@ -19,9 +18,9 @@ def multiply(x, y):
 
 #Division function
 def divide(x, y):
-    while y == 0:
+    while float(y) == 0:
         print("ERROR --- CANNOT DIVIDE BY 0!")
-        y = input("Enter a valid value to divide by\n")
+        y = float(input("Enter a valid value to divide by\n"))
     answer = float(x) / float(y)
     print(f"{x} / {y} = {answer}")
     return
