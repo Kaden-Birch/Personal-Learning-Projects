@@ -1,5 +1,17 @@
 #This is the functions file!
 #Addition function
+def menu():
+    print("""
+    1. Add
+    2. Subtract
+    3. Multiply
+    4. Divide
+    5. Exponential
+    6. Root
+    Q --- Quit
+    """)
+    return
+
 def add(x, y):
     answer = float(x) + float(y)
     print(f"{x} + {y} = {answer}")
@@ -36,6 +48,6 @@ def exponent(x, y):
 def root(x, y):
     math_root = 1/float(y)
     answer = float(x) ** math_root
-    print(f"{x} ^ {y} = {answer}")
+    print(f"{x} sqrt {y} = {answer}")
     return
 #kind of proud of myself for this one...
